@@ -10,10 +10,9 @@ class Node:
         self.nodeNext = None
 # Linklist holds the node object
 class linkList:
+    """
+    linkList 
+    """
     def __init__(self) -> None:
         self.head=None
-# initialize the  head linklist
-ll = linkList() 
-ll.head = Node(1)
-print(ll.head.nodeData)
 
